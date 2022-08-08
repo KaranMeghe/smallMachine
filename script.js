@@ -14,6 +14,7 @@ const updateBtn = () => {
     btn.textContent = 'Start Machine';
     text.textContent = 'The Machine is Stopped';
     box.style.backgroundColor = 'orangered';
+    machineBox.classList.add('trans');
   }
 };
 
